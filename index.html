@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RT BURGUER</title>
+
+    <link rel="icon" href="./src/assests/logo.png" type="image/png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="./src/styles/style.css">
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+
+            <i class="fa-solid fa-burger" id="nav_logo"> RT BURGUER</i>
+
+            <ul id="navlist">
+
+                <li class="nav_item active">
+                    <a href="#home">Inicio</a>
+                </li>
+
+                <li class="nav_item">
+                    <a href="#dishes">Cardápio</a>
+                </li>
+
+                <li class="nav_item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+            </ul>
+
+            <button class="btn-default">
+                Peça aqui!
+            </button>
+
+            <button id="mobile-btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+
+        <div id="mobile_menu">
+            <ul id="mobile_navlist">
+
+                <li class="nav_item">
+                    <a href="#home">Inicio</a>
+                </li>
+
+                <li class="nav_item">
+                    <a href="#dishes">Cardápio</a>
+                </li>
+
+                <li class="nav_item">
+                    <a href="#testimonials">Avaliações</a>
+                </li>
+                
+
+                <button class="btn-default">
+                    Peça aqui!
+                </button>
+
+            </ul>
+        </div>
+
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape">
+            </div>
+            <div id="cta">
+                <h1 class="title">O sabor que vai até <span>você</span></h1>
+
+
+                <p class="description">Não passe vontade, passe o cartão! Nossos burgers são montados com pressa para
+                    chegar e calma para saborear. Escolha o seu favorito e sinta a explosão de sabores agora mesmo!
+                </p>
+
+                <div id="cta_buttons">
+                    <a href="#dishes" class="btn-default">Ver Cardápio
+                    </a>
+
+                    <a href="https://wa.me/qr/SE2SMAOIPACJN1" id="phone_button">
+                        <button class="btn-default">
+                            <i class="fa-solid fa-phone"></i>
+                        </button>
+                        (13) 4002-8922
+                    </a>
+                </div>
+
+                <div class="social-media-button">
+                    <a href="https://wa.me/qr/SE2SMAOIPACJN1" target="_blank">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/rafa.gs3/" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/rafaelgsilva2" target="_blank">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div id="banner">
+                <img src="./src/assests/hero.png" alt="Imagens de pratos havaianos como Poke, saladas, etc">
+            </div>
+        </section>
+
+        <section id="menu">
+            <h2 class="section-title">Cardápio</h2>
+            <h3 class="section-subtitle">Nossos pratos especiais</h3>
+
+            <div id="dishes">
+                <div class="dish">
+
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="./src/assests/dish.png" alt="Prato de comida havaiana - Poke">
+
+                    <h3 class="dish-title">RT Salad</h3>
+
+                    <span class="dish-description">A combinação perfeita entre carne artesanal e salada fresca.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(100+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$29,90</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+
+
+                <div class="dish">
+
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="./src/assests/dish2.png" alt="Prato de comida - Sanduiche" class="dish-image">
+
+                    <h3 class="dish-title">RT Bacon Supreme</h3>
+
+                    <span class="dish-description">A combinação suprema de carne, queijo e bacon premium
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(100+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$36,90</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+
+                <div class="dish">
+
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="./src/assests/dish3.png" alt="Prato de comida - Yakisoba" class="dish-image">
+
+                    <h3 class="dish-title">RT Crispy</h3>
+
+                    <span class="dish-description">O tradicional hambúrguer de frango com queijo e alface.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(100+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$32,90</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+                </div>
+
+
+                <div class="dish">
+
+                    <div class="dish-heart">
+                        <i class="fa-solid fa-heart"></i>
+                    </div>
+
+                    <img src="./src/assests/dish4.png" alt="Prato de comida - Poke" class="dish-image">
+
+                    <h3 class="dish-title">RT Single Combo</h3>
+
+                    <span class="dish-description">Burger, batata frita crocante e refri gelado. O trio perfeito.
+                    </span>
+
+                    <div class="dish-rate">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span>(500+)</span>
+                    </div>
+
+                    <div class="dish-price">
+                        <h4>R$42,90</h4>
+                        <button class="btn-default">
+                            <i class="fa-solid fa-basket-shopping"></i>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+
+        </section>
+
+        <section id="testimonials">
+            <img src="./src/assests/chef.png" id="testimonial_chef" alt="imagem de chef de cozinha">
+
+            <div id="testimonials_content">
+
+                <h2 class="section-title">Avaliações</h2>
+
+                <h3 class="section-subtitle">Quem comprou, recomenda</h3>
+
+                <div id="feedbacks">
+                    <div class="feedback">
+                        <img src="./src/assests/avatar.png" class="feedback-avatar"
+                            alt="Imagem de um de nossos clientes">
+
+                        <div class="feedback-content">
+                            <p>Thaynara Pereira
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "Ingredientes super frescos. O RT Salada tem aquele gosto de hambúrguer artesanal de
+                                verdade. Virei cliente fiel"
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="feedback">
+                        <img src="./src/assests/avatar1.png" class="feedback-avatar"
+                            alt="Imagem de um de nossos clientes">
+
+                        <div class="feedback-content">
+                            <p>Rafael Silva
+                                <span>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                </span>
+                            </p>
+                            <p>
+                                "A entrega foi super rápida e o atendimento pelo WhatsApp é excelente. O RT Chicken é
+                                muito crocante!"
+                            </p>
+                        </div>
+                    </div>
+
+
+                </div>
+                <button class="btn-default">
+                    Mais Avaliações
+                </button>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+
+        <img src="./src/assests/wave.svg" alt="">
+
+        <div id="footer_itens">
+            <span id="copyright">
+                &copy 2025 Rafael Silva
+            </span>
+
+            <div class="social-media-button">
+                <a href="https://wa.me/qr/SE2SMAOIPACJN1" target="_blank">
+                    <i class="fa-brands fa-whatsapp"></i>
+                </a>
+
+                <a href="https://www.instagram.com/rafa.gs3/" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/rafaelgsilva2" target="_blank">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script src="./src/JS/script.js"></script>
+</body>
+
+
+</html>
