@@ -203,10 +203,10 @@ Este projeto é de código aberto e está disponível sob a licença MIT.
 
 ## 👨‍💻 Desenvolvido por
 
-**Rafael Gustavo** | Developer Web  
-📧 [seu-email@exemplo.com]  
-🔗 [LinkedIn](https://linkedin.com/in/seu-perfil)  
-🐙 [GitHub](https://github.com/seu-usuario)
+| **Rafael Silva** | 
+📧 [rafagsilva1321@gmail.com]  
+🔗 [LinkedIn](www.linkedin.com/in/rafaelgsilva2)  
+🐙 [GitHub](https://github.com/Rafaelgs2)
 
 ---
 
