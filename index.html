@@ -26,14 +26,16 @@
 
 <body>
     <header>
-        <nav id="navbar">
+        <nav id="navbar" role="navigation" aria-label="Navegação principal">
 
-            <i class="fa-solid fa-burger" id="nav_logo"> RT BURGUER</i>
+            <a href="#home" class="nav-logo" id="nav_logo">
+                <i class="fa-solid fa-burger" aria-hidden="true"></i> RT BURGUER
+            </a>
 
             <ul id="navlist">
 
                 <li class="nav_item active">
-                    <a href="#home">Inicio</a>
+                    <a href="#home">Início</a>
                 </li>
 
                 <li class="nav_item">
@@ -45,12 +47,12 @@
                 </li>
             </ul>
 
-            <button class="btn-default">
+            <button class="btn-default" aria-label="Fazer pedido">
                 Peça aqui!
             </button>
 
-            <button id="mobile-btn">
-                <i class="fa-solid fa-bars"></i>
+            <button id="mobile-btn" aria-label="Abrir menu mobile" aria-expanded="false">
+                <i class="fa-solid fa-bars" aria-hidden="true"></i>
             </button>
         </nav>
 
@@ -103,23 +105,23 @@
                     </a>
                 </div>
 
-                <div class="social-media-button">
-                    <a href="https://wa.me/qr/SE2SMAOIPACJN1" target="_blank">
-                        <i class="fa-brands fa-whatsapp"></i>
+                <div class="social-media-button" role="navigation" aria-label="Redes sociais">
+                    <a href="https://wa.me/qr/SE2SMAOIPACJN1" target="_blank" aria-label="Envie-nos mensagem no WhatsApp">
+                        <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
                     </a>
 
-                    <a href="https://www.instagram.com/rafa.gs3/" target="_blank">
-                        <i class="fa-brands fa-instagram"></i>
+                    <a href="https://www.instagram.com/rafa.gs3/" target="_blank" aria-label="Siga-nos no Instagram">
+                        <i class="fa-brands fa-instagram" aria-hidden="true"></i>
                     </a>
 
-                    <a href="https://www.linkedin.com/in/rafaelgsilva2" target="_blank">
-                        <i class="fa-brands fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/rafaelgsilva2" target="_blank" aria-label="Conecte-se conosco no LinkedIn">
+                        <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
                     </a>
                 </div>
             </div>
 
             <div id="banner">
-                <img src="./src/assests/hero.png" alt="Imagens de pratos havaianos como Poke, saladas, etc">
+                <img src="./src/assests/hero.png" alt="Banner de apresentação - Prato requintado e apetitoso da RT Burguer">
             </div>
         </section>
 
@@ -134,7 +136,7 @@
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img src="./src/assests/dish.png" alt="Prato de comida havaiana - Poke">
+                    <img src="./src/assests/dish.png" alt="RT Salad - Hambúrguer artesanal com salada fresca">
 
                     <h3 class="dish-title">RT Salad</h3>
 
@@ -166,7 +168,7 @@
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img src="./src/assests/dish2.png" alt="Prato de comida - Sanduiche" class="dish-image">
+                    <img src="./src/assests/dish2.png" alt="RT Bacon Supreme - Hambúrguer com queijo derretido e bacon premium" class="dish-image">
 
                     <h3 class="dish-title">RT Bacon Supreme</h3>
 
@@ -197,7 +199,7 @@
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img src="./src/assests/dish3.png" alt="Prato de comida - Yakisoba" class="dish-image">
+                    <img src="./src/assests/dish3.png" alt="RT Crispy - Hambúrguer de frango crocante com queijo e alface fresca" class="dish-image">
 
                     <h3 class="dish-title">RT Crispy</h3>
 
@@ -228,7 +230,7 @@
                         <i class="fa-solid fa-heart"></i>
                     </div>
 
-                    <img src="./src/assests/dish4.png" alt="Prato de comida - Poke" class="dish-image">
+                    <img src="./src/assests/dish4.png" alt="RT Single Combo - Hambúrguer com batata frita crocante e refrigerante" class="dish-image">
 
                     <h3 class="dish-title">RT Single Combo</h3>
 
@@ -257,7 +259,7 @@
         </section>
 
         <section id="testimonials">
-            <img src="./src/assests/chef.png" id="testimonial_chef" alt="imagem de chef de cozinha">
+            <img src="./src/assests/chef.png" id="testimonial_chef" alt="Chef profissional apresentando um prato gourmet da RT Burguer">
 
             <div id="testimonials_content">
 
@@ -268,10 +270,10 @@
                 <div id="feedbacks">
                     <div class="feedback">
                         <img src="./src/assests/avatar.png" class="feedback-avatar"
-                            alt="Imagem de um de nossos clientes">
+                            alt="Avatar de Thaynara Pereira, cliente satisfeita">
 
                         <div class="feedback-content">
-                            <p>Thaynara Pereira
+                            <p><strong>Thaynara Pereira</strong>
                                 <span>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
@@ -289,10 +291,10 @@
 
                     <div class="feedback">
                         <img src="./src/assests/avatar1.png" class="feedback-avatar"
-                            alt="Imagem de um de nossos clientes">
+                            alt="Avatar de Rafael Silva, cliente satisfeito">
 
                         <div class="feedback-content">
-                            <p>Rafael Silva
+                            <p><strong>Rafael Silva</strong>
                                 <span>
                                     <i class="fa-solid fa-star"></i>
                                     <i class="fa-solid fa-star"></i>
@@ -321,24 +323,24 @@
 
     <footer>
 
-        <img src="./src/assests/wave.svg" alt="">
+        <img src="./src/assests/wave.svg" alt="Decoração ondulada entre conteúdo e rodapé">
 
         <div id="footer_itens">
             <span id="copyright">
                 &copy 2025 Rafael Silva
             </span>
 
-            <div class="social-media-button">
-                <a href="https://wa.me/qr/SE2SMAOIPACJN1" target="_blank">
-                    <i class="fa-brands fa-whatsapp"></i>
+            <div class="social-media-button" role="navigation" aria-label="Redes sociais">
+                <a href="https://wa.me/qr/SE2SMAOIPACJN1" target="_blank" aria-label="Envie-nos mensagem no WhatsApp">
+                    <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
                 </a>
 
-                <a href="https://www.instagram.com/rafa.gs3/" target="_blank">
-                    <i class="fa-brands fa-instagram"></i>
+                <a href="https://www.instagram.com/rafa.gs3/" target="_blank" aria-label="Siga-nos no Instagram">
+                    <i class="fa-brands fa-instagram" aria-hidden="true"></i>
                 </a>
 
-                <a href="https://www.linkedin.com/in/rafaelgsilva2" target="_blank">
-                    <i class="fa-brands fa-linkedin"></i>
+                <a href="https://www.linkedin.com/in/rafaelgsilva2" target="_blank" aria-label="Conecte-se conosco no LinkedIn">
+                    <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
                 </a>
             </div>
         </div>
