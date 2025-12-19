@@ -204,8 +204,8 @@ Este projeto é de código aberto e está disponível sob a licença MIT.
 ## 👨‍💻 Desenvolvido por
 
 | **Rafael Silva** | 
-📧 [rafagsilva1321@gmail.com]  
-🔗 [LinkedIn](www.linkedin.com/in/rafaelgsilva2)  
+📧 [rafagsilva1312@gmail.com]  
+🔗 [LinkedIn](https://www.linkedin.com/in/rafaelgsilva2)  
 🐙 [GitHub](https://github.com/Rafaelgs2)
 
 ---
